@@ -1,0 +1,20 @@
+<div class="container">
+  <app-page-title></app-page-title>
+
+  <h3 class="text-center font-weight-normal">All Student</h3>
+  <div class="card-deck">
+    <div class="card text-center m-2" *ngFor="let student of studentList">
+      <app-card [data]="student"></app-card>
+    </div>
+  </div>
+  <br> <br>
+  <h3 class="text-center font-weight-normal">All Teacher</h3>
+  <div class="card-deck">
+    <div class="card text-center m-2" *ngFor="let teacher of teacherList">
+      <app-card [data]="teacher"></app-card>
+    </div>
+  </div>
+</div>
+
+
+<br> <br> <br> <br>
