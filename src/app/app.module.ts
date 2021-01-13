@@ -9,6 +9,10 @@ import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { PageTitleComponent } from './common/page-title/page-title.component';
 import { CardComponent } from './shared/component/card/card.component';
+import { PageNotFoundComponent } from './page/page-not-found/page-not-found.component';
+import { StudentComponent } from './shared/component/student/student.component';
+import { TeacherComponent } from './shared/component/teacher/teacher.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,10 @@ import { CardComponent } from './shared/component/card/card.component';
     HeaderComponent,
     FooterComponent,
     PageTitleComponent,
-    CardComponent
+    CardComponent,
+    PageNotFoundComponent,
+    StudentComponent,
+    TeacherComponent,
   ],
   imports: [
     BrowserModule,
