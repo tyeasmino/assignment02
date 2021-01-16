@@ -10,8 +10,7 @@ import { FooterComponent } from './common/footer/footer.component';
 import { PageTitleComponent } from './common/page-title/page-title.component';
 import { CardComponent } from './shared/component/card/card.component';
 import { PageNotFoundComponent } from './page/page-not-found/page-not-found.component';
-import { StudentComponent } from './shared/component/student/student.component';
-import { TeacherComponent } from './shared/component/teacher/teacher.component';
+import { BoxListComponent } from './shared/component/box-list/box-list.component';
 
 
 @NgModule({
@@ -24,8 +23,7 @@ import { TeacherComponent } from './shared/component/teacher/teacher.component';
     PageTitleComponent,
     CardComponent,
     PageNotFoundComponent,
-    StudentComponent,
-    TeacherComponent,
+    BoxListComponent,
   ],
   imports: [
     BrowserModule,
